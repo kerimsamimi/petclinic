@@ -1,0 +1,125 @@
+2019-06-14 20:24:25.922  INFO 12724 --- [restartedMain] c.k.petclinic.PetClinicApplication       : Starting PetClinicApplication on DESKTOP-D8MGOOC with PID 12724 (D:\workspace\workspace-sts-3.9.6.RELEASE\petclinic\target\classes started by kerim in D:\workspace\workspace-sts-3.9.6.RELEASE\petclinic)
+2019-06-14 20:24:25.938  INFO 12724 --- [restartedMain] c.k.petclinic.PetClinicApplication       : No active profile set, falling back to default profiles: default
+2019-06-14 20:24:26.055  INFO 12724 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-14 20:24:26.056  INFO 12724 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-14 20:24:28.462  INFO 12724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-14 20:24:28.520  INFO 12724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+2019-06-14 20:24:29.869  INFO 12724 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e327e26] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-14 20:24:29.962  INFO 12724 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$8db2cb58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-14 20:24:31.399  INFO 12724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-06-14 20:24:31.469  INFO 12724 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-14 20:24:31.470  INFO 12724 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-06-14 20:24:32.061  INFO 12724 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-14 20:24:32.075  INFO 12724 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-14 20:24:32.075 DEBUG 12724 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-06-14 20:24:32.075  INFO 12724 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6018 ms
+2019-06-14 20:24:32.943 DEBUG 12724 --- [restartedMain] o.s.jdbc.datasource.DataSourceUtils      : Fetching JDBC Connection from DataSource
+2019-06-14 20:24:32.945  INFO 12724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-14 20:24:34.168  INFO 12724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-14 20:24:34.347  INFO 12724 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-14 20:24:34.554  INFO 12724 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-06-14 20:24:34.557  INFO 12724 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-14 20:24:34.931  INFO 12724 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-14 20:24:35.318  INFO 12724 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-14 20:24:37.145  INFO 12724 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-14 20:24:37.190  INFO 12724 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-14 20:24:38.043 DEBUG 12724 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-06-14 20:24:38.381  INFO 12724 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-14 20:24:38.403 DEBUG 12724 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-06-14 20:24:38.485  WARN 12724 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-14 20:24:38.561 DEBUG 12724 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 12 mappings in 'requestMappingHandlerMapping'
+2019-06-14 20:24:38.597 DEBUG 12724 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-06-14 20:24:38.612 DEBUG 12724 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-06-14 20:24:38.678  INFO 12724 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-14 20:24:39.507  INFO 12724 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67020c42, org.springframework.security.web.context.SecurityContextPersistenceFilter@7bc44d36, org.springframework.security.web.header.HeaderWriterFilter@6d567663, org.springframework.security.web.csrf.CsrfFilter@6b9db6a4, org.springframework.security.web.authentication.logout.LogoutFilter@28d8b1e7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5d4af87f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@19cf02fc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16ac8490, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b504e24, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@55234f28, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c1be0b5, org.springframework.security.web.session.SessionManagementFilter@f9a6dfb, org.springframework.security.web.access.ExceptionTranslationFilter@7ac5888d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@68273417]
+2019-06-14 20:24:40.230  INFO 12724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2019-06-14 20:24:40.232  INFO 12724 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-14 20:24:40.233  INFO 12724 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-06-14 20:24:40.400  INFO 12724 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-14 20:24:40.404  INFO 12724 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-06-14 20:24:40.404 DEBUG 12724 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-06-14 20:24:40.404  INFO 12724 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 509 ms
+2019-06-14 20:24:40.474  INFO 12724 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 0 endpoint(s) beneath base path '/actuator'
+2019-06-14 20:24:40.522 DEBUG 12724 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 1 mappings in 'requestMappingHandlerMapping'
+2019-06-14 20:24:40.552 DEBUG 12724 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-06-14 20:24:40.583 DEBUG 12724 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-06-14 20:24:40.691  INFO 12724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2019-06-14 20:24:40.742  INFO 12724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-06-14 20:24:40.743  INFO 12724 --- [restartedMain] c.k.petclinic.PetClinicApplication       : Started PetClinicApplication in 15.91 seconds (JVM running for 17.378)
+2019-06-14 20:24:53.498  INFO 12724 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-14 20:24:53.499  INFO 12724 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-14 20:24:53.500 DEBUG 12724 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-06-14 20:24:53.520 DEBUG 12724 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-06-14 20:24:53.520  INFO 12724 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
+2019-06-14 20:24:53.660 DEBUG 12724 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/login.html", parameters={}
+2019-06-14 20:24:53.666 DEBUG 12724 --- [http-nio-9000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.kerimsamimi.petclinic.web.PetClinicController.login()
+2019-06-14 20:24:53.861 DEBUG 12724 --- [http-nio-9000-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html]
+2019-06-14 20:24:53.862 DEBUG 12724 --- [http-nio-9000-exec-2] o.s.web.servlet.view.JstlView            : View name 'login', model {}
+2019-06-14 20:24:53.874 DEBUG 12724 --- [http-nio-9000-exec-2] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/login.jsp]
+2019-06-14 20:24:55.403 DEBUG 12724 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-14 20:24:55.653 DEBUG 12724 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2019-06-14 20:24:55.657 DEBUG 12724 --- [http-nio-9000-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+2019-06-14 20:24:55.711 DEBUG 12724 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-14 20:26:59.888 DEBUG 12724 --- [http-nio-9000-exec-6] o.s.jdbc.datasource.DataSourceUtils      : Fetching JDBC Connection from DataSource
+2019-06-14 20:27:00.137 DEBUG 12724 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/login.html?loginFailed=true", parameters={masked}
+2019-06-14 20:27:00.138 DEBUG 12724 --- [http-nio-9000-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.kerimsamimi.petclinic.web.PetClinicController.login()
+2019-06-14 20:27:00.140 DEBUG 12724 --- [http-nio-9000-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html]
+2019-06-14 20:27:00.141 DEBUG 12724 --- [http-nio-9000-exec-7] o.s.web.servlet.view.JstlView            : View name 'login', model {}
+2019-06-14 20:27:00.142 DEBUG 12724 --- [http-nio-9000-exec-7] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/login.jsp]
+2019-06-14 20:27:00.166 DEBUG 12724 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-14 20:27:05.220 DEBUG 12724 --- [http-nio-9000-exec-8] o.s.jdbc.datasource.DataSourceUtils      : Fetching JDBC Connection from DataSource
+2019-06-14 20:27:05.233 DEBUG 12724 --- [http-nio-9000-exec-8] o.s.jdbc.datasource.DataSourceUtils      : Fetching JDBC Connection from DataSource
+2019-06-14 20:27:05.255 DEBUG 12724 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-14 20:27:05.256 DEBUG 12724 --- [http-nio-9000-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.kerimsamimi.petclinic.web.PetClinicController.index()
+2019-06-14 20:27:05.261 DEBUG 12724 --- [http-nio-9000-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-14 20:27:05.261 DEBUG 12724 --- [http-nio-9000-exec-9] o.s.web.servlet.view.JstlView            : View name 'index', model {}
+2019-06-14 20:27:05.262 DEBUG 12724 --- [http-nio-9000-exec-9] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/index.jsp]
+2019-06-14 20:27:05.453 DEBUG 12724 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-14 20:27:07.883 DEBUG 12724 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/login.html?logout", parameters={masked}
+2019-06-14 20:27:07.884 DEBUG 12724 --- [http-nio-9000-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.kerimsamimi.petclinic.web.PetClinicController.login()
+2019-06-14 20:27:07.885 DEBUG 12724 --- [http-nio-9000-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html]
+2019-06-14 20:27:07.885 DEBUG 12724 --- [http-nio-9000-exec-1] o.s.web.servlet.view.JstlView            : View name 'login', model {}
+2019-06-14 20:27:07.886 DEBUG 12724 --- [http-nio-9000-exec-1] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/login.jsp]
+2019-06-14 20:27:07.892 DEBUG 12724 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-14 20:27:12.303 DEBUG 12724 --- [http-nio-9000-exec-3] o.s.jdbc.datasource.DataSourceUtils      : Fetching JDBC Connection from DataSource
+2019-06-14 20:27:12.306 DEBUG 12724 --- [http-nio-9000-exec-3] o.s.jdbc.datasource.DataSourceUtils      : Fetching JDBC Connection from DataSource
+2019-06-14 20:27:12.320 DEBUG 12724 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-14 20:27:12.320 DEBUG 12724 --- [http-nio-9000-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.kerimsamimi.petclinic.web.PetClinicController.index()
+2019-06-14 20:27:12.323 DEBUG 12724 --- [http-nio-9000-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-14 20:27:12.323 DEBUG 12724 --- [http-nio-9000-exec-4] o.s.web.servlet.view.JstlView            : View name 'index', model {}
+2019-06-14 20:27:12.324 DEBUG 12724 --- [http-nio-9000-exec-4] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/index.jsp]
+2019-06-14 20:27:12.328 DEBUG 12724 --- [http-nio-9000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-14 20:27:33.351 DEBUG 12724 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-14 20:27:33.355 DEBUG 12724 --- [http-nio-9000-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-14 20:27:33.381 DEBUG 12724 --- [http-nio-9000-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2019-06-14 20:27:33.388 DEBUG 12724 --- [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 403
+2019-06-14 20:27:39.075 DEBUG 12724 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/owners", parameters={}
+2019-06-14 20:27:39.076 DEBUG 12724 --- [http-nio-9000-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.kerimsamimi.petclinic.web.PetClinicController.getOwners()
+2019-06-14 20:27:39.150  INFO 12724 --- [http-nio-9000-exec-7] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-14 20:27:39.443 DEBUG 12724 --- [http-nio-9000-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-14 20:27:39.443 DEBUG 12724 --- [http-nio-9000-exec-7] o.s.web.servlet.view.JstlView            : View name 'owners', model {owners=[Owner [id=1, name=Ahmet, lastName=Ozaslan], Owner [id=2, name=Oguz, lastName=Kaan], Owner [id=3, name=Mert, lastName=Efe]]}
+2019-06-14 20:27:39.443 DEBUG 12724 --- [http-nio-9000-exec-7] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/owners.jsp]
+2019-06-14 20:27:39.694 DEBUG 12724 --- [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-14 20:27:50.654 DEBUG 12724 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/owner", parameters={}
+2019-06-14 20:27:50.661 DEBUG 12724 --- [http-nio-9000-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-14 20:27:50.665 DEBUG 12724 --- [http-nio-9000-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-14 20:27:50.666 DEBUG 12724 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-14 20:27:50.669 DEBUG 12724 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-14 20:27:50.670 DEBUG 12724 --- [http-nio-9000-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-14 20:27:50.683 DEBUG 12724 --- [http-nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-14 20:27:55.100 DEBUG 12724 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/owner/2", parameters={}
+2019-06-14 20:27:55.104 DEBUG 12724 --- [http-nio-9000-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-14 20:27:55.106 DEBUG 12724 --- [http-nio-9000-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-14 20:27:55.107 DEBUG 12724 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-14 20:27:55.109 DEBUG 12724 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-14 20:27:55.110 DEBUG 12724 --- [http-nio-9000-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-14 20:27:55.118 DEBUG 12724 --- [http-nio-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-14 20:28:02.288 DEBUG 12724 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/owner/2", parameters={}
+2019-06-14 20:28:02.295 DEBUG 12724 --- [http-nio-9000-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-14 20:28:02.297 DEBUG 12724 --- [http-nio-9000-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-14 20:28:02.298 DEBUG 12724 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-14 20:28:02.301 DEBUG 12724 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-14 20:28:02.302 DEBUG 12724 --- [http-nio-9000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-14 20:28:02.312 DEBUG 12724 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
